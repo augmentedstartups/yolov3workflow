@@ -24,6 +24,7 @@ Restart your PC
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 
 ```export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}```
+
 ```export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}```
 
 
@@ -44,11 +45,14 @@ Install CuDNN Dev
 
 ```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
 
-## nvidia docker 2
-
+## Nvidia Docker 2
+Follow the instructions at the links below 
 https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
+
+or
+
 https://nvidia.github.io/nvidia-docker/
 
 ## Link to Supervisely
 
-
+Copy the curl in supervisely into terminal and it should be linked!
