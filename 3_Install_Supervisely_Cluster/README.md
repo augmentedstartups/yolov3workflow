@@ -21,6 +21,8 @@ Restart your PC
 ```sudo apt-get install cuda```
 
 ## Post Cuda Installation
+From 7.1.1 Environment Setup from the cuda installation guide for Linux. We put in the following commands in terminal:
+
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 
 ```export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}```
@@ -29,6 +31,8 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 
 
 ## Install CuDNN
+Sign up for a free account to download CuDNN 9.0, Download the runtime and developer packages of cuDNN 7.0.5 for cuda 9.0.
+
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
 
 Install CuDNN Run Time
@@ -41,9 +45,19 @@ Install CuDNN Dev
 
 
 ## Docker Installation
+
 ```sudo apt install curl```
 
 ```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
+
+Follow Docker installation process:
+
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+## Post installation Steps for Linux
+Follow the post installation instructions for Docker:
+
+https://docs.docker.com/install/linux/linux-postinstall/
 
 ## Nvidia Docker 2
 Follow the instructions at the links below:
