@@ -46,7 +46,8 @@ Install CuDNN Dev
 ```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
 
 ## Nvidia Docker 2
-Follow the instructions at the links below 
+Follow the instructions at the links below:
+
 https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
 
 or
