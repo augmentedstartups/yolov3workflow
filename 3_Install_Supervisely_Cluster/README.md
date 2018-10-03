@@ -62,7 +62,7 @@ https://docs.docker.com/install/linux/linux-postinstall/
 ## Nvidia Docker 2
 Follow the instructions at the links below:
 
-https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)
+https://github.com/NVIDIA/nvidia-docker
 
 or
 
