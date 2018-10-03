@@ -22,7 +22,9 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 
 ## Install CuDNN
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
+
 Install CuDNN Run Time
+
 ```sudo dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb```
 
 Install CuDNN Dev
