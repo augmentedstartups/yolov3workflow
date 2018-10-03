@@ -17,20 +17,22 @@
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 
 ```export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}```
-```export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64\
-                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}```
+```export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}```
 
 
 ## Install CuDNN
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
 Install CuDNN Run Time
 ```sudo dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb```
+
 Install CuDNN Dev
+
 ```sudo dpkg -i libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb```
 
 
 ## Docker Installation
 ```sudo apt install curl```
+
 ```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
 
 ## nvidia docker 2
