@@ -2,7 +2,14 @@
 # Supervisely Cluster Setup
 
 ## Install Graphics Card Drivers
+First make sure that you have your nVidia graphics card drivers installed. You can go to __Additional Drivers__ and alternative checkbox under graphics drivers.
 
+After that is installed your Ubunutu will want to update all the drivers. 
+Once that is done.
+
+```sudo apt-get update```
+
+Restart your PC
 
 ## Install CUDA
 ```sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb```
