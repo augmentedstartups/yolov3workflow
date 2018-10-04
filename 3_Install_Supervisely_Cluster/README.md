@@ -1,6 +1,22 @@
 
 # Supervisely Cluster Setup
 
+## Introduction
+Hey guys and welcome back, so in this lecture, we are going to setup up our deep learning capable PC as a cluster for Supervisely. Now we are using Ubuntu because it is required by Supervisely, otherwise we would be using windows. But what is nice about this setup is that you can access this PC anywhere in the world and train your CNN models from the otherside of the planet if you really wanted to. Ideally you would want your cluster to be a server rather than your desktop PC, but hey if you have to train, you have to train. 
+So my PC that I am using, has an NVidia 1080 GTX graphics card and I freshly partitioned my hard drive alongside windows. We won’t cover the installation of Ubuntu 16.04 in this series as there are tons of free tuts on how to do this. Make sure when that you Ubuntu partition has tons of space because Supervisely creates and saves weight checkpoints at every epoch which can easily consume around 20 to 30 gigs of space. I made my partition around 200Gb to allow for enough training epochs. 
+
+The whole process of setting up a cluster is quite laborious and involves a lot of copy-and-pasting of command lines but once you set it up, its done for good, unless you ran out of space like I did and had to set it up twice on two computers. 
+So,ya! without further A due, let’s get started with creating a Supervisely cluster:
+
+## Supervisely
+Okay so first up we need to log into supervise.ly and log into our account. If you don’t have an account you can sign up.
+Under the cluster tab you click here to add a node. And as you can see, they show you all the requirement to convert your PC into a cluster. This includes 
+*	Linux OS with Kernal greater that 3.10, 
+*	Docker version 18 and above
+*	GPU with Cuda 9.0 
+*	As well as a nvidia docker container with version 2.0.
+
+
 ## Install Graphics Card Drivers
 First make sure that you have your nVidia graphics card drivers installed. You can go to __Additional Drivers__ and alternative checkbox under graphics drivers.
 
