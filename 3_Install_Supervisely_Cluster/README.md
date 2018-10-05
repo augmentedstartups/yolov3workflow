@@ -8,7 +8,7 @@ So my PC that I am using, has an NVidia 1080 GTX graphics card and I freshly par
 The whole process of setting up a cluster is quite laborious and involves a lot of copy-and-pasting of command lines but once you set it up, its done for good, unless you ran out of space like I did and had to set it up twice on two computers. 
 So,ya! without further A due, let’s get started with creating a Supervisely cluster:
 
-## Supervisely
+## 1. Supervisely
 Okay so first up we need to log into supervise.ly and log into our account. If you don’t have an account you can sign up.
 Under the cluster tab you click here to add a node. And as you can see, they show you all the requirement to convert your PC into a cluster. This includes 
 *	Linux OS with Kernal greater that 3.10, 
@@ -17,7 +17,7 @@ Under the cluster tab you click here to add a node. And as you can see, they sho
 *	As well as a nvidia docker container with version 2.0.
 
 
-## Install Graphics Card Drivers
+## 2.0 Install Graphics Card Drivers
 First make sure that you have your nVidia graphics card drivers installed. You can go to __Additional Drivers__ and alternative checkbox under graphics drivers.
 
 After that is installed your Ubunutu will want to update all the drivers. 
@@ -27,7 +27,7 @@ Once that is done.
 
 Restart your PC
 
-## Install CUDA
+## 3. Install CUDA
 ```sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb```
 
 ```sudo apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub```
@@ -36,7 +36,7 @@ Restart your PC
 
 ```sudo apt-get install cuda```
 
-## Post Cuda Installation
+## 4. Post Cuda Installation
 From 7.1.1 Environment Setup from the cuda installation guide for Linux. We put in the following commands in terminal:
 
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
@@ -46,7 +46,7 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 ```export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}```
 
 
-## Install CuDNN
+## 5. Install CuDNN
 Sign up for a free account to download CuDNN 9.0, Download the runtime and developer packages of cuDNN 7.0.5 for cuda 9.0.
 
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
@@ -60,7 +60,7 @@ Install CuDNN Dev
 ```sudo dpkg -i libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb```
 
 
-## Docker Installation
+## 6. Docker Installation
 
 ```sudo apt install curl```
 
@@ -70,12 +70,12 @@ Follow Docker installation process:
 
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-## Post installation Steps for Linux
+## 7. Post installation Steps for Linux
 Follow the post installation instructions for Docker:
 
 https://docs.docker.com/install/linux/linux-postinstall/
 
-## Nvidia Docker 2
+## 8. Nvidia Docker 2
 Follow the instructions at the links below:
 
 https://github.com/NVIDIA/nvidia-docker
@@ -84,6 +84,6 @@ or
 
 https://nvidia.github.io/nvidia-docker/
 
-## Link to Supervisely
+## 9. Link to Supervisely
 
 Copy the curl in supervisely into terminal and it should be linked!
