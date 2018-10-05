@@ -17,7 +17,7 @@ Under the cluster tab you click here to add a node. And as you can see, they sho
 *	As well as a nvidia docker container with version 2.0.
 
 
-## 2.0 Install Graphics Card Drivers
+## 2. Install Graphics Card Drivers
 First make sure that you have your nVidia graphics card drivers installed. You can go to __Additional Drivers__ and alternative checkbox under graphics drivers.
 
 After that is installed your Ubunutu will want to update all the drivers. 
