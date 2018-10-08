@@ -29,7 +29,7 @@
     
     * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64.
     
-# Step 2 - PyTorch Yolo v3
+## Step 2 - PyTorch Yolo v3
 Change directory to a workplace where you want to download the repo                                                                                                                                                                                                     
 
   * Clone Yolo v3 Repo
@@ -40,5 +40,5 @@ Change directory to a workplace where you want to download the repo
   
   	🔗https://pjreddie.com/media/files/yolov3.weights
 
-# Step 3 - PyTorch Yolo v3
+## Step 3 - PyTorch Yolo v3
 
