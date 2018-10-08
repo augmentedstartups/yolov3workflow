@@ -13,10 +13,7 @@
 
   ```conda env create -f D:\4K\yolo\RAW\Yolov3\2.YoloV3\yolo.yml```
 
-* Nvidia GPU – GTX 1050 or higher
-
-
-* CUDA Toolkit - V9.0 
+* CUDA Toolkit - V9.0  (Nvidia GPU – GTX 1050 or higher)
   CUDA and CuDNN can now be installed via Anaconda, but if you choose to install them using the ol skool method then follow the links below.
 
 	🔗 https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal 
@@ -39,5 +36,9 @@ Change directory to a workplace where you want to download the repo
   
 	  * ```git clone https://github.com/ayooshkathuria/pytorch-yolo-v3.git```
 
-  * Download the Weights🔗
+  * Download the Weights
+  
+  	🔗https://pjreddie.com/media/files/yolov3.weights
+
+# Step 3 - PyTorch Yolo v3
 
