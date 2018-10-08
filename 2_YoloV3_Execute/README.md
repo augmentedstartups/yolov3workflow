@@ -8,6 +8,7 @@
   https://www.anaconda.com/download/
 
 * Conda Env – Yolo.yml
+
 🔗 https://github.com/reigngt09/yolov3workflow/tree/master/2_YoloV3_Execute
 
   ```conda env create -f D:\4K\yolo\RAW\Yolov3\2.YoloV3\yolo.yml```
@@ -18,10 +19,11 @@
 * CUDA Toolkit - V9.0 
   CUDA and CuDNN can now be installed via Anaconda, but if you choose to install them using the ol skool method then follow the links below.
 
-🔗 https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal 
+	🔗 https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal 
 
 * CuDNN - V 7.05 
-🔗 https://developer.nvidia.com/rdp/cudnn-archive
+
+	🔗 https://developer.nvidia.com/rdp/cudnn-archive
 
   Add the following paths to Environmental Variables
     * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin.
