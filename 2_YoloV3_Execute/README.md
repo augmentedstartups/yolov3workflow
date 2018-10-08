@@ -2,7 +2,7 @@
 
 
 
-# Step 1 - Requirements
+## Step 1 - Requirements
 
 * Anaconda – Python 3.6 (Win 10) 
   https://www.anaconda.com/download/
