@@ -1,4 +1,4 @@
-# How to run YoloV3 the Easy Way, using Pytorch on Windows
+# How to run Real-Time YoloV3 the Easy Way, using Pytorch on Windows
 
 Hey guys and welcome back, so in this [video](http://bit.ly/YoloV3Playlist) I'm going to show you how to implement Yolo V3 Object Detection using PyTorch on Windows 10. We'll walk through everything from Requirements to setup all the way to executing the CNN. Now we are not going to go through the theory as I mentioned earlier, this will just be hands-on practical tutorial to get you up and running. 
 
