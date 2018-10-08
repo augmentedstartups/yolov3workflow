@@ -14,7 +14,7 @@
 
 * Nvidia GPU – GTX 1050 or higher
 
-CUDA and CuDNN can now be installed via Anaconda, but if you choose to install them using the ol skool method then follow the links below
+  CUDA and CuDNN can now be installed via Anaconda, but if you choose to install them using the ol skool method then follow the links below.
 * CUDA Toolkit - V9.0 
 
 🔗 https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal 
