@@ -9,7 +9,7 @@
 
 * Conda Env – Yolo.yml
 
-🔗 https://github.com/reigngt09/yolov3workflow/tree/master/2_YoloV3_Execute
+	🔗 https://github.com/reigngt09/yolov3workflow/tree/master/2_YoloV3_Execute
 
   ```conda env create -f D:\4K\yolo\RAW\Yolov3\2.YoloV3\yolo.yml```
 
