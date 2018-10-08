@@ -42,3 +42,13 @@ Change directory to a workplace where you want to download the repo
 
 ## Step 3 - PyTorch Yolo v3
 
+○ Change Directory to cloned repo🔗
+	 ```cd C:\yolotorch```
+
+○ Download any test video (.mp4/.avi)
+
+○ Run demo on video
+	 ```python video_demo.py --video video.mp4```
+
+○ Run demo on webcam
+	 ```python cam_demo.py```
