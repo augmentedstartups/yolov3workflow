@@ -27,11 +27,11 @@ You can find the full video series tutorial here : http://bit.ly/YoloV3Playlist
 	🔗 https://developer.nvidia.com/rdp/cudnn-archive
 
   Add the following paths to Environmental Variables
-    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin.
+    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
   
-    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include.
+    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include
     
-    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64.
+    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64
     
 ## Step 2 - PyTorch Yolo v3
 Change directory to a workplace where you want to download the repo                                                                                                                                                                                                     
