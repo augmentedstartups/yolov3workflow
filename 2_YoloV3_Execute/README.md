@@ -28,17 +28,17 @@ You can find the full video series tutorial here : http://bit.ly/YoloV3Playlist
 
 	🔗 https://developer.nvidia.com/rdp/cudnn-archive
 	
-  Copy the following files into the CUDA Toolkit directory.
- * Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin.
- * Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include.
- * Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64.
+  * Copy the following files into the CUDA Toolkit directory.
+   	Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin.
+  	Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include.
+ 	Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64.
 
-  Add the following paths to Environmental Variables
-    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
+  * Add the following paths to Environmental Variables
+     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
   
-    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include
+     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include
     
-    * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64
+     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64
     
 ## Step 2 - PyTorch Yolo v3
 Change directory to a workplace where you want to download the repo                                                                                                                                                                                                     
