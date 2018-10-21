@@ -42,6 +42,8 @@ You can find the full video series tutorial here : http://bit.ly/YoloV3Playlist
      C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include
     
      C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64
+     
+  * Ensure that you have the latest nvidia graphics drivers install on your PC. You can do this from the nvidia website.
     
 ## Step 2 - PyTorch Yolo v3
 Change directory to a workplace where you want to download the repo                                                                                                                                                                                                     
