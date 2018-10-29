@@ -18,6 +18,11 @@ You can find the full video series tutorial here : http://bit.ly/YoloV3Playlist
   ```cd C:\yolo```
 
   ```conda env create -f yolo.yml```
+  
+  If that does not work, try installing the dependencies with:
+  
+    ```pip install -r requirements.txt```
+  
 
 * CUDA Toolkit - V9.0  (Nvidia GPU – GTX 1050 or higher)
   CUDA and CuDNN can now be installed via Anaconda, but if you choose to install them using the ol skool method then follow the links below.
