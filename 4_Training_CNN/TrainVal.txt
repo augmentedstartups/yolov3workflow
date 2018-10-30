@@ -1,0 +1,58 @@
+[
+  {
+    "action": "data",
+    "src": [
+      "Console Dataset/*"
+    ],
+    "dst": "$data",
+    "settings": {
+      "classes_mapping": "default"
+    }
+  },
+  {
+    "action": "if",
+    "src": [
+      "$data"
+    ],
+    "dst": [
+      "$totrain",
+      "$toval"
+    ],
+    "settings": {
+      "condition": {
+        "probability": 0.8
+      }
+    }
+  },
+  {
+    "action": "tag",
+    "src": [
+      "$totrain"
+    ],
+    "dst": "$train",
+    "settings": {
+      "tag": "train",
+      "action": "add"
+    }
+  },
+  {
+    "action": "tag",
+    "src": [
+      "$toval"
+    ],
+    "dst": "$val",
+    "settings": {
+      "tag": "val",
+      "action": "add"
+    }
+  },
+  {
+    "action": "supervisely",
+    "src": [
+      "$train",
+      "$val"
+    ],
+    "dst": "Console Dataset_tagged",
+    "settings": {}
+  }
+]
