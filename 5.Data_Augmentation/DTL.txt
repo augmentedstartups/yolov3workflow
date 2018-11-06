@@ -1,0 +1,73 @@
+[
+  {
+    "dst": "$data",
+    "src": [
+      "Console Dataset/*"
+    ],
+    "action": "data",
+    "settings": {
+      "classes_mapping": "default"
+    }
+  },
+  {
+    "dst": "$flip_vert",
+    "src": [
+      "$data"
+    ],
+    "action": "flip",
+    "settings": {
+      "axis": "vertical"
+    }
+  },
+  {
+    "dst": "Console Dataset_Aug",
+    "src": [
+      "$data",
+      "$resized_result",
+      "$resized_result2",
+      "$noise_result",
+      "$flip_vert"
+    ],
+    "action": "supervisely",
+    "settings": {}
+  },
+  {
+    "action": "resize",
+    "src": [
+      "$data"
+    ],
+    "dst": "$resized_result",
+    "settings": {
+      "width": 800,
+      "height": -1,
+      "aspect_ratio": {
+        "keep": true
+      }
+    }
+  },
+  {
+    "action": "noise",
+    "src": [
+      "$data"
+    ],
+    "dst": "$noise_result",
+    "settings": {
+      "mean": 10,
+      "std": 60
+    }
+  },
+  {
+    "action": "resize",
+    "src": [
+      "$data"
+    ],
+    "dst": "$resized_result2",
+    "settings": {
+      "width": 300,
+      "height": -1,
+      "aspect_ratio": {
+        "keep": true
+      }
+    }
+  }
+]
