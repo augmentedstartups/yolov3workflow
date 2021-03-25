@@ -79,7 +79,7 @@ PySocks==1.6.8
 python-dateutil==2.7.3
 pytz==2018.5
 pywin32==223
-PyYAML==3.13
+PyYAML==5.4
 pyzmq==17.1.0
 QtAwesome==0.4.4
 qtconsole==4.3.1
