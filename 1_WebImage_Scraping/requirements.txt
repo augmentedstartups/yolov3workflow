@@ -62,7 +62,7 @@ pandocfilters==1.4.2
 parso==0.3.1
 path.py==11.0.1
 pickleshare==0.7.4
-Pillow==5.2.0
+Pillow==8.3.2
 prompt-toolkit==1.0.15
 protobuf==3.5.2
 psutil==5.4.6
