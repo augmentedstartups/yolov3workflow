@@ -3,7 +3,7 @@ alabaster==0.7.11
 asn1crypto==0.24.0
 astor==0.7.1
 astroid==2.0.2
-Babel==2.6.0
+Babel==2.9.1
 backcall==0.1.0
 backports.weakref==1.0.post1
 bleach==2.1.3
